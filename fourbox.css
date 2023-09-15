@@ -1,0 +1,52 @@
+*{
+    margin:0;
+}
+
+.one{
+    width:50%;
+    height: 375px;
+    background-color: black;
+    float:left;
+    border-radius: 20px;
+    padding: 2px;
+    display:flex;
+    
+}
+
+.two{
+    width:50%;
+    height: 375px;
+    background-color: blue;
+    float:left;
+    border-radius: 20px;
+}
+
+.three{
+    width:50%;
+    height: 375px;
+    background-color: green;
+    float:left;
+    border-radius: 20px;
+}
+
+.four{
+    width:50%;
+    height: 375px;
+    background-color: red;
+    float:left;
+    border-radius: 20px;
+    
+}
+#one-one ,#one-two {
+
+    width: 45px;
+    height: 45px;
+    margin:auto;
+  background-color: white;
+}
+#one-three ,#one-four{
+    width: 45px;
+    height: 45px;
+    margin:auto;
+  background-color: white;
+}

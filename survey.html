@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Survey Form</title>
+</head>
+<body>
+  <h1 id="title"> Survey Form </h1>
+  <p id="description"> Fill out this form </p>
+  <form id="survey-form">
+
+    <label id="name-label">Name<input type="text" id="name" placeholder="Enter your name" required></label>
+    <label id="email-label">Email<input type="email" id="email" placeholder="Enter your email" required></label>
+     <label id="number-label">Age<input type="number" pattern="[0-9]" id="number" placeholder="Age" min="12" max="90" required></label>
+
+     <p>Which option describes your current role?</p>
+
+     <select id="dropdown">
+       <option disabled >Choose</option>
+       <option value="1">Student</option>
+       <option value="2">Junior Developer</option>
+     </select>
+
+     <p>Would you recommend this to a friend?</p>
+
+      <label for="Yes"><input type="radio"  name="rec" value="rec">Yes</label>
+      <label for="maybe"><input type="radio" name="rec" value="rec">Maybe</label>
+      <label for="not-sure"><input type="radio" name="rec" value="rec">Not Sure</label>
+
+
+      <p>What would you like to see improved? </p>
+      
+      <label><input type="checkbox" value="Front-end">Front-end</label>
+      <label><input type="checkbox" value="Back-end">Back-end</label>
+      <label><input type="checkbox" value="Data-Visualization">Data Visualization</label>
+
+    <label>
+    <p>Any comments or suggestions?</p>
+    <textarea ></textarea>
+    </label>
+
+    <label>
+    <input type="submit" id="submit">
+    </label>
+
+  </form>
+</body>
+</html>
