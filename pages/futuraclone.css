@@ -45,7 +45,7 @@ h1{
 }
 
 .bg{
-    background: url("banner.webp");
+    background: url("/images/banner.webp");
     height: 642px;
 }
 .para{
