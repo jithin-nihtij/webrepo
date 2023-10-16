@@ -1,0 +1,254 @@
+.nav-link{
+    font-size: 16px;
+    color: #332d2d;
+    line-height: 40px;
+    font-weight: 600;
+}
+
+.nav-link:hover{
+    color: #F35B04;
+}
+
+.git{
+    background:linear-gradient(95.04deg, #FFAA3F 0.82%, #F35B04 97.35%) ;
+    border: none;
+    min-width: 146px;
+    height: 50px;
+    display: inline-flex;
+    align-items: center;
+    padding: 10px 15px;
+    font-size: 14px;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    text-align: left;
+}
+
+.git:hover{
+    background:linear-gradient(95.04deg, #ffa93fc4 0.82%, #f35c04ae 97.35%)  ;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; }
+
+.main{
+    background-image: url(/images/futurabg.jpg);
+    height: auto;
+}
+
+h1{
+    font-size: 85px;
+    font-weight: 600;
+    padding-bottom: 40px;
+    color: #fff;
+    text-align: center;
+    padding-top: 150px;
+    font-weight: 700;
+}
+
+.mainp{
+    max-width: 800px;
+    font-family: 'Poppins', sans-serif;
+    margin: 0px auto;
+    padding-bottom: 55px;
+    font-weight: 500;
+    color: #fff;
+    
+}
+
+.mainbtn{
+    background:linear-gradient(95.04deg, #FFAA3F 0.82%, #F35B04 97.35%) ;
+    border: none;
+    min-width: 146px;
+    height: 50px;
+    padding: 10px 15px;
+    font-size: 14px;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    
+}
+
+.mainbtn:hover{
+    background:linear-gradient(95.04deg, #ffa93fc4 0.82%, #f35c04ae 97.35%)  ;
+}
+
+
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    color: #413838;
+    font-weight: 800;
+    
+}
+
+
+
+.parent{
+   
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 300px;
+    grid-gap: 25px;
+    
+}
+
+.child1,.child2,.child3,.child4,.child5{
+    background-color: #ffc5d4;
+    border-radius: 0 20px 20px;
+}
+.child2{
+    background-color: rgb(114, 180, 180);
+}
+.child3{
+    background-color: aquamarine;
+}
+.child4{
+    background-color: #d9edbd;
+}
+
+
+
+.card-text{
+
+    color: #332D2D;
+    font-weight: 600;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+@media only screen and (max-width: 900px) {
+
+    .parent{
+        
+        
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 300px 300px 300px 300px 300px;
+        grid-gap: 25px;
+    }    
+}
+
+.card{
+    height: 500px;
+    border-radius: 0 20px 20px;
+    background-color: #ffe9ef;
+}
+
+.card:hover{
+    border: 1px solid #332d2d;
+    margin: 0;
+}
+
+.card-title{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    padding-bottom: 20px;
+}
+
+.enquire{
+    background:linear-gradient(95.04deg, #FFAA3F 0.82%, #F35B04 97.35%) ;
+    border: none;
+    min-width: 146px;
+    height: 50px;
+    width: 50%;
+}
+
+.enquire:hover{
+    background:linear-gradient(95.04deg, #ffa93fc4 0.82%, #f35c04ae 97.35%)  ;
+}
+
+
+ion-icon{
+    background-color: blueviolet;
+    height: 30px;
+    width: 30px;
+    color: white;
+    border-radius: 20px;
+}
+ion-icon:hover{
+    background-color: #FFAA3F;
+}
+.num{
+    
+    font-size: x-large;
+    font-weight: 700;
+    
+}
+
+.con{
+    color: #413838;
+}
+
+.con:hover{
+    color: blueviolet;
+}
+
+.style{
+    border-radius: 0 20px 20px;
+    background-color: #ffc5d4;
+}
+
+.style1{
+    border-radius: 0 20px 20px;
+    background-color: #c5daff;
+}
+
+.style2{
+    border-radius: 0 20px 20px;
+    background-color: #c5ffc9;
+}
+
+.style3{
+    border-radius: 0 20px 20px;
+    background-color: #fdffc5;
+}
+
+.style:hover{
+
+    border:1px pink solid  
+}
+
+.enquiry{
+    width: 50%;
+}
+
+.second-parent{
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-rows: 500px;
+    grid-gap: 25px;
+    justify-content: space-around;
+}
+
+.second-child{
+    background-color: #eaf795;
+    border-radius: 0 20px 20px;
+}
+
+@media only screen and (max-width: 900px) {
+
+    .second-parent{
+        
+        
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 300px 300px 300px 300px 300px;
+        grid-gap: 25px;
+    }    
+}
+
+.second-child:hover{
+    margin: 0;
+    padding: 0;
+    border: 1px pink solid;
+}
+
+
+.drp{
+    width:550px;
+}
